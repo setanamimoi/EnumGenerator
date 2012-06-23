@@ -82,5 +82,8 @@
   <PropertyGroup>
     <PreBuildEvent>
     </PreBuildEvent>
+    <PostBuildEvent>copy "$(SolutionDir)CoreDB.sdf" "$(ProjectDir)$(OutDir)CoreDB.sdf"
+copy "$(SolutionDir)DropCalculator.enumgen" "$(ProjectDir)$(OutDir)DropCalculator.enumgen"
+copy "$(SolutionDir)EnumGenerator.sql" "$(ProjectDir)$(OutDir)EnumGenerator.sql"</PostBuildEvent>
   </PropertyGroup>
 </Project>
