@@ -1,0 +1,5 @@
+﻿[ClrVersion]v3.5
+[Assembly]DropCalculator.Enum.dll
+[DbProvider]System.Data.SqlServerCe.3.5
+[ConnectionString]Data Source=CoreDB.sdf;Persist Security Info=False;
+[Sql]EnumGenerator.sql
